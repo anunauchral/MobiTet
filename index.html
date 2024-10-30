@@ -5,9 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player</title>
 	<!-- mindar files -->
-	<script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/dist/mindar-image.prod.js"></script>
-	<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/dist/mindar-image-aframe.prod.js"></script>
+	<script src="js/mindar-image.prod"></script>
+	<script src="js/aframe.min"></script>
+	<script src="js/mindar-image-aframe.prod"></script>
 	<style>.tmpHidden {display: none;}</style>
 	<!-- finish mindar files -->
 	<script src="Build/ARmobi.loader.js"></script>
@@ -67,7 +67,7 @@
 	  var config = {
         dataUrl: buildUrl + "/ARmobi.data.gz",
         frameworkUrl: buildUrl + "/ARmobi.framework.js.gz",
-		codeUrl: buildUrl + "/ARmobi.wasm.gz",
+			codeUrl: buildUrl + "/ARmobi.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Tetra FX",
         productName: "Web AR test",
